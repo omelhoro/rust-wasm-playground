@@ -5,7 +5,6 @@ use rust_wasm_playground::Model;
 use yew::prelude::*;
 
 fn main() {
-    println!("hello there!");
     yew::initialize();
     App::<Model>::new().mount_to_body();
     yew::run_loop();
